@@ -1,0 +1,243 @@
+body {
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway Regular";
+    text-align: center;
+    display: block;
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: url("Raleway-Regular.ttf");
+}
+
+a {
+    font-family: "Raleway Regular";
+    text-decoration: none;
+}
+
+p,
+label,
+input {
+    font-family: "Raleway Regular";
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 20px;
+}
+
+.barra {
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.53);
+    backdrop-filter: blur(35px);
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.43);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.43);
+}
+
+.barra img {
+    height: 4em;
+    margin: 10px;
+    border-radius: 20em;
+}
+
+.barra a {
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0);
+    transition: 0.2s;
+}
+
+.barra a:hover {
+    background-color: rgb(255, 255, 255, 1);
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+}
+
+.displyRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.displycolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.borde {
+    border-radius: 10px;
+}
+
+.contenido {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 4%;
+    margin-left: 4%;
+    width: 92%;
+    padding: 10px;
+}
+
+.contenidoJuegos {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    padding: 10px;
+}
+
+.contratacion {
+    background-size: cover;
+    width: 350px;
+    height: auto;
+    background-color: blueviolet;
+    margin: 4px;
+}
+
+.Galeria {
+    background-size: cover;
+    width: 31%;
+    height: auto;
+    margin: 1%;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.Galeria:hover {
+    transform: scale(1.1);
+}
+
+.juego {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    width: auto;
+    height: 300px;
+    margin: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.boton {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+}
+
+.botonBlanco {
+    background-color: rgb(255, 239, 253);
+    margin: 3ex;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transform: scale(1);
+    transition: 0.2s;
+    -webkit-box-shadow: 5px 5px 15px -4px rgba(0, 0, 0, 0.28);
+    box-shadow: 5px 5px 15px -4px rgba(0, 0, 0, 0.28);
+}
+
+.botonBlanco:hover {
+    transform: scale(1.1);
+}
+
+.juego .col30 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.363);
+    backdrop-filter: blur(35px);
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 26%;
+    height: 100%;
+}
+
+.en50 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 46%;
+}
+
+.juego .col70 {
+    width: 70%;
+    height: 100%;
+}
+
+.zoom {
+    transform: scale(1);
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    z-index: 3;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+}
+
+.baner {
+    background-image: url(Fondo_banner.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 0px 5px 15px -4px rgba(0, 0, 0, 0.28);
+    box-shadow: 0px 5px 15px -4px rgba(0, 0, 0, 0.28);
+}
