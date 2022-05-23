@@ -177,6 +177,8 @@ input {
 
 .botonBlanco:hover {
     transform: scale(1.1);
+    -webkit-box-shadow: 7px 7px 15px -4px rgba(0, 0, 0, 0.28);
+    box-shadow: 7px 7px 15px -4px rgba(0, 0, 0, 0.28);
 }
 
 .juego .col30 {
