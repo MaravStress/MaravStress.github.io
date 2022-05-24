@@ -13,6 +13,10 @@ h6 {
     display: block;
 }
 
+.textLeft {
+    text-align: left;
+}
+
 @font-face {
     font-family: "Raleway Regular";
     src: url("Raleway-Regular.ttf");
@@ -116,6 +120,21 @@ input {
     height: auto;
     background-color: blueviolet;
     margin: 4px;
+}
+
+.Galeria4 {
+    background-size: cover;
+    width: 22%;
+    height: auto;
+    margin: 1%;
+    z-index: 3;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.Galeria4:hover {
+    z-index: 5;
+    transform: scale(1.1);
 }
 
 .Galeria {
@@ -242,4 +261,9 @@ footer div {
     height: auto;
     -webkit-box-shadow: 0px 5px 15px -4px rgba(0, 0, 0, 0.28);
     box-shadow: 0px 5px 15px -4px rgba(0, 0, 0, 0.28);
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
 }
