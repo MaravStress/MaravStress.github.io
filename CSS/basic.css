@@ -1,0 +1,13 @@
+.barup{
+    position: relative;
+    -webkit-box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.28);
+    box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.28);
+    text-align: center;
+    background-color: rgb(34, 6, 43);
+   
+}
+body{
+    background-color: rgb(12, 2, 15);
+    color: #fff;
+}
