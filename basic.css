@@ -10,7 +10,7 @@
    -moz-box-shadow: 10px 10px 42px 0px rgba(0,0,0,0.28);
    -webkit-box-shadow: 10px 10px 42px 0px rgba(0,0,0,0.28);
     transition: 0.3s;
-    &:hover{
+    &::hover{
         transform: scale(1.1,1.1,1.1);
     }
 }
